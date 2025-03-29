@@ -1,0 +1,26 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "This is react project",
+  "homepage": "https://github.com/rameshbanala/namaste_react#readme",
+  "bugs": {
+    "url": "https://github.com/rameshbanala/namaste_react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rameshbanala/namaste_react.git"
+  },
+  "license": "ISC",
+  "author": "Ramesh",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
