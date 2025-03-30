@@ -1,6 +1,90 @@
-#heading {
-  font-size: 2em;
-  color: red;
-  text-align: center;
-  margin-top: 20px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: rgb(234, 97, 11);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.logo img {
+  width: 100px;
+  height: 80px;
+}
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 20px;
+}
+
+.nav-items ul li {
+  color: black;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  &:hover {
+    color: rgb(234, 97, 11);
+  }
+}
+.body {
+  padding: 20px;
+}
+
+.restaurants-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+
+.restaurant-card {
+  width: 250px;
+  padding: 10px;
+  background-color: rgb(240, 238, 235);
+  margin: 12px;
+  border: 1px solid white;
+}
+.restaurant-card:hover {
+  background-color: rgb(250, 241, 241);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: rgb(234, 97, 11);
+  border-color: rgb(234, 97, 11);
+  cursor: pointer;
+}
+.restaurant-img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.restaurant-card h4 {
+  margin: 10px;
+  font-size: 16px;
+  color: rgb(244, 119, 2);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.restaurant-card h4 span {
+  font-size: 18px;
+  color: rgb(234, 97, 11);
+  font-weight: bold;
 }
